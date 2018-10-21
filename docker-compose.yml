@@ -67,7 +67,8 @@ services:
     volumes:
       - tomcat_volume:/usr/local/tomcat
       - ./tomcat/tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml
-      - ./tomcat/startup.sh:/usr/local/tomcat/conf/tomcat-users.xml
+      - ./tomcat/startup.sh:/usr/local/tomcat/conf/startup.sh
+      - ./tomcat/context.xml:/usr/local/tomcat/webapps/manager/META-INF/context.xml
 volumes:
   mongodb_volume:
   mysql_volume:
