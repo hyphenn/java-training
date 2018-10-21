@@ -23,7 +23,7 @@ For MySQL qnd MongoDB you can change the default users directly in the docker-co
   + 80 - Tomcat
   + 1337 - Tomcat debugging
   + 3306 - MySQL
-  + 22017 - MongoDB
+  + 27017 - MongoDB
   + 8081 - MySQL client Adminer
   + 8082 - MongoDB client Mongo-Express
   
